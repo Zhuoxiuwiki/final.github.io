@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>信息页</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/info_style.css') }}">
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit-id.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <nav class="sidebar">
+        <ul class="main-menu">
+            <li><a href="index.html"><i class="fas fa-home"></i><span>首页</span></a></li>
+            <li class="has-submenu active">
+                <a href="info.html"><i class="fas fa-info"></i><span>信息</span></a>
+                <ul class="sub-menu">
+                    <li><a href="#">信息详情 1</a></li>
+                    <li><a href="#">信息详情 2</a></li>
+                    <li><a href="#">信息详情 3</a></li>
+                </ul>
+            </li>
+            <li><a href="team.html"><i class="fas fa-users"></i><span>团队</span></a></li>
+        </ul>
+    </nav>
+
+
+    <div class="main-content">
+        <h1>信息页内容</h1>
+        <p>这里展示了丰富的相关信息内容。信息 1 详细介绍了某个重要的知识点，信息 2 则聚焦于特定的业务场景，信息 3 提供了实用的解决方案。你可以根据实际需求，不断扩展和完善这些信息，让页面内容更加丰富和有价值。</p>
+    </div>
+</body>
+
+</html>
